@@ -1,0 +1,144 @@
+:root {
+    --btn-bgcolor: #F2F2F2;
+    --txt-color: #45494e;
+    --search-color: rgba(73, 73, 73, 0.308);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+    display: flex;
+}
+.nav ul{
+    padding: 2rem 5rem;
+    list-style: none;
+    justify-content: flex-end;
+}
+.nav a {
+    text-decoration: none;
+    color: var(--txt-color);
+    padding: 0 .3rem;
+
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.logo-container span{
+    color: #48a3b3;
+    font-size: 16px;
+    position: relative;
+    left: -60px;
+}
+
+.form {
+    margin-top: 20px;
+}
+.search-container {
+    position: relative;
+}
+
+.search-container input {
+    width: 580px;
+    height: 20px;
+    padding: 0.7rem 3rem;
+    border-radius: 40px;
+    border: 1px solid var(--search-color);
+    outline: none;
+}
+.search-container span {
+    position: absolute;
+    left: 10px;
+    top: 25%;
+    color: var(--search-color) 
+}
+
+.submit-container {
+    justify-content: center;
+}
+
+.submit-container input {
+    margin: 20px 4px;
+    background-color: var(--btn-bgcolor);
+    border: 1px solid var(--btn-bgcolor);
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    padding: .3rem 1rem;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit-container input:hover {
+    border: 1px solid var(--search-color);
+}
+/* advanced search */
+.header img {
+    margin-left: 2rem;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.header{
+    background-color: #d7d7ee;
+    padding: 10px 0;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.header ul {
+    padding: 0 4rem;
+}
+
+.adv-header {
+    margin-left: 5%;
+    font-weight: 300;
+    color: red;
+    font-size: 20px;
+}
+
+.find-pages-with {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    width: 80%;
+    margin-left: 5%;
+}
+.find-pages-with label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.find-pages-with > * {
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+.find-pages-with input[type="submit"]{
+    background-color: #4C8EFA;
+    border: 1px solid #8e8ea8;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 350px;
+}
+
+.find-pages-with input {
+    width: 90%;
+    height: 2rem;
+}
+
+.margin-zero {
+    margin: auto 0;
+    padding: 0;
+    line-height: 1rem;
+}
