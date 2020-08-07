@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="flex">
+            <li><a href="image-search.html">Images</a></li>
+            <li><a href="advanced-search.html">Advanced</a></li>
+        </ul>
+    </nav>
+    <main class="main flex">
+        <div>
+            <img alt="Google" height="92" width="272" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <form action="https://google.com/search">
+            <div class="search-container">
+                <span class="material-icons">search</span>
+                <input type="text" name="q">                
+            </div> 
+            <div class="submit-container flex">
+                <input type="text" hidden name="ei">
+                <input type="submit" value="Google Search">
+                <input value="I'm Feeling Lucky" name="btnI" type="submit">
+            </div>          
+        </form>
+    </main>
+</body>
+</html>
