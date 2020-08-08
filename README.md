@@ -27,10 +27,11 @@ Your website must meet the following requirements.
 - CSS3
 ## YouTube Demo
 
-https://youtu.be/CEvuM3jKlh8
-## Live Webpage Link
+[Video_Link](https://youtu.be/CEvuM3jKlh8)
 
-[Live Demo Link]()
+## Webpage
+
+[Website](https://ggotora.github.io/CS50-Web-Project0/)
 
 
 ## Authors
