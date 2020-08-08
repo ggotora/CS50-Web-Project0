@@ -1,6 +1,6 @@
 # CS50-Web-Project0
 - Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
-![](images/google-page.png)
+![](google-page.png)
 
 ### The aim of this project is to meet the following specifications
 
